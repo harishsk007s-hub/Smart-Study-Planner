@@ -4,46 +4,46 @@ A full-stack web application for managing study tasks with progress tracking.
 
 ## Tech Stack
 
-- **Frontend**: React.js + Vite
-- **Backend**: Node.js + Express.js
-- **Database**: MongoDB (local)
+- Frontend: React.js + Vite
+- Backend: Node.js + Express.js
+- Database: MongoDB (local)
 
 ## Project Structure
 
-```
+```text
 project 1/
-├── client/          # React Frontend (Vite)
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── TaskForm.jsx
-│   │   │   ├── TaskItem.jsx
-│   │   │   ├── TaskList.jsx
-│   │   │   └── ProgressBar.jsx
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
-├── server/          # Node.js Backend
-│   ├── models/
-│   │   └── Task.js
-│   ├── routes/
-│   │   └── tasks.js
-│   ├── server.js
-│   └── package.json
-└── README.md
+|-- client/              # React frontend (Vite)
+|   |-- src/
+|   |   |-- components/
+|   |   |   |-- TaskForm.jsx
+|   |   |   |-- TaskItem.jsx
+|   |   |   |-- TaskList.jsx
+|   |   |   `-- ProgressBar.jsx
+|   |   |-- services/
+|   |   |   `-- api.js
+|   |   |-- App.jsx
+|   |   |-- App.css
+|   |   `-- main.jsx
+|   |-- package.json
+|   `-- vite.config.js
+|-- server/              # Node.js backend
+|   |-- models/
+|   |   `-- Task.js
+|   |-- routes/
+|   |   `-- tasks.js
+|   |-- server.js
+|   `-- package.json
+`-- README.md
 ```
 
 ## Features
 
-- ✅ Add, edit, and delete study tasks
-- ✅ Task properties: title, description, deadline, status
-- ✅ Clean dashboard UI
-- ✅ Progress tracking (completed vs pending tasks)
-- ✅ REST API for all CRUD operations
-- ✅ Responsive design for mobile and desktop
+- Add, edit, and delete study tasks
+- Task properties: title, description, deadline, status
+- Clean dashboard UI
+- Progress tracking (completed vs pending tasks)
+- REST API for all CRUD operations
+- Responsive design for mobile and desktop
 
 ## API Endpoints
 
@@ -124,7 +124,3 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
 # Push to GitHub
 git push -u origin main
 ```
-
-## Project Created Successfully! 🎉
-
-Happy studying! 📚
